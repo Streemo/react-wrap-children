@@ -1,5 +1,5 @@
 {
-  "name": "react-wrap",
+  "name": "react-wrap-children",
   "version": "1.0.0",
   "description": "let renderThis = wrap(this.props.children, someProps)",
   "main": "./dst/wrap.js",

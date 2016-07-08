@@ -4,13 +4,13 @@ All `children` receive `props`.
 Useful for creating containers.
 Should work with React and React-Native.
 ```
-import wrap from "react-wrap";
+import wrap from "react-wrap-children";
 
 //...
 //...
 
 render(){
-	return wrap(this.props.children, myProps)
+  return wrap(this.props.children, myProps)
 }
 ```
 `myProps` can contain a key if you want. 
